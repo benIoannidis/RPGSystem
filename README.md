@@ -32,15 +32,21 @@ the below variables are exposed through the Inspector for in-engine tweaking.
 
 ##### Member variables
 • m_name: A string that can be queried
+
 • m_weight: An integer that will affect a characters carry amount
+
 • m_damage: An integer that will be added to character strength when 
 calculating hit damage• m_attackRate: Time in seconds between attacks, this can be left empty 
 (equal to 0) if not required
+
 • m_dps: Gives you the ability to see the weapons DPS when not being 
 used by a character
+
 • m_resistance: This will be added to character resistance, to calculate the 
 percentage of damage that will be mitigated on receiving an attack
+
 • isConsumable: A bool that if set to "true", will lead to the Item being 
 destroyed upon use
+
 • m_sprite: A sprite that can be assigned to this Item if required, if not, it 
 can be left empty
